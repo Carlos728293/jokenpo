@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Titúlo do web site -->
+    <title>Jokenpô - Pedra, Papel e Tesoura</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="src/images/favicon-jokenpo.png"
+      type="image/x-icon"
+    />
+    <!-- link de Icons do (FontAwesome) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Css -->
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="iniciar">
+        <div class="links">
+          <a href="https://github.com/Carlos728293" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/carlos-eduardo-da-silva-5b157334b/"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+
+        <div class="container">
+          <h1>Bem-vindo ao Jokenpô!</h1>
+          <p>Clique no botão abaixo para começar o jogo.</p>
+          <button class="jogar">Jogar</button>
+        </div>
+
+        <div class="config">
+          <button><i class="fa-solid fa-gear"></i></button>
+        </div>
+      </section>
+
+      <section id="jogo">
+        <h1>Jokenpô</h1>
+
+        <div class="arrow">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+
+        <div class="esconde"></div>
+
+        <div class="aviso">
+          <h2>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            Atenção!
+          </h2>
+          <p>
+            Se você voltar para a tela inicial, sua sequência de vitórias será
+            perdida. Tem certeza de que deseja voltar?
+          </p>
+          <button class="voltar_inicio">Tela Inicial</button>
+          <button class="voltar_jogo">Continua no Jogo</button>
+        </div>
+
+        <div class="placar">
+          <div class="vitorias">
+            <i class="fa-solid fa-trophy"></i>
+            <p class="vitoria-contator">0</p>
+          </div>
+          <div class="empate">
+            <i class="fa-solid fa-handshake"></i>
+            <p class="empate-contator">0</p>
+          </div>
+          <div class="derrotas">
+            <i class="fa-solid fa-skull"></i>
+            <p class="derrota-contator">0</p>
+          </div>
+        </div>
+
+        <div class="view-jogo">
+          <div class="imagem1">
+            <img class="img1" src="src/images/tesoura.png" alt="pedra" />
+          </div>
+          <div class="imagem2">
+            <img src="src/images/papel.png" alt="papel" />
+          </div>
+        </div>
+
+        <div class="resultado">
+          <h2 class="resultado_texto"></h2>
+        </div>
+
+        <div class="escolhas">
+          <button onclick="jogou(1)">
+            <img src="src/images/pedra.png" alt="Pedra" />
+          </button>
+          <button onclick="jogou(2)">
+            <img src="src/images/papel.png" alt="Papel" />
+          </button>
+          <button onclick="jogou(3)">
+            <img src="src/images/tesoura.png" alt="Tesoura" />
+          </button>
+
+          <button class="troca"><i class="fa-solid fa-repeat"></i></button>
+        </div>
+      </section>
+    </main>
+
+    <script src="/src/javascript/script.js"></script>
+  </body>
+</html>
