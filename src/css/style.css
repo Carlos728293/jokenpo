@@ -28,7 +28,6 @@
 }
 
 body {
-  background-color: black;
   overflow: hidden;
 }
 
@@ -46,7 +45,7 @@ section#iniciar {
     transparent 100%
   );
   height: 100dvh;
-  width: 100%;
+  width: 100dvw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,6 +157,7 @@ section#jogo {
   top: 0;
   transform: translateY(2000px);
   opacity: 0;
+  overflow: hidden;
   transition: transform 1s ease, opacity 1s ease;
 }
 /* CSS da Section > (Jogo)  appeared APARECER NA TELA */
@@ -329,4 +329,67 @@ section#jogo .escolhas .troca {
   color: var(--branco);
   margin-left: 20px;
   font-size: 0.9rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 1000px) {
+  section#iniciar i {
+    font-size: clamp(3rem, 4vw, 1.75rem);
+  }
+
+  section#iniciar .container h1 {
+    font-size: clamp(2.5rem, 5vw, 3rem);
+  }
+  section#iniciar .container p {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  /*Links*/
+  section#iniciar .links {
+    top: 40px;
+    right: 20px;
+  }
+  section#iniciar .links a {
+    padding: 20px;
+  }
+
+  /*Buttom*/
+  section#iniciar .container button {
+    margin-top: 2rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+
+  section#iniciar .config {
+    left: 20px;
+    bottom: 40px;
+  }
+  section#iniciar .config button {
+    padding: 20px;
+  }
+
+  /* SECTION JOGO */
+  section#jogo .arrow {
+    padding: 5px;
+    top: 20px;
+    left: 30px;
+    font-size: clamp(3rem, 2vw, 1.75rem);
+  }
+
+  section#jogo h1 {
+    font-size: clamp(3rem, 3.5vw, 2.8rem);
+  }
+
+  section#jogo .aviso button {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
+
+  section#jogo .placar {
+    margin: 30px 0px 20px 0px;
+  }
+  section#jogo .placar div {
+    padding: 6px 20px;
+    font-size: clamp(1.2rem, 2vw, 1.75rem);
+  }
 }
