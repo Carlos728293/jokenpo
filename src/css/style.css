@@ -334,50 +334,50 @@ section#jogo .escolhas .troca {
 /* Mobile */
 @media screen and (max-width: 1000px) {
   section#iniciar i {
-    font-size: clamp(3rem, 4vw, 1.75rem);
+    font-size: clamp(2rem, 4vw, 1.75rem);
   }
 
   section#iniciar .container h1 {
-    font-size: clamp(2.5rem, 5vw, 3rem);
+    font-size: clamp(1.75rem, 5vw, 3rem);
   }
   section#iniciar .container p {
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(0.9rem, 4vw, 3rem);
   }
 
   /*Links*/
   section#iniciar .links {
-    top: 40px;
-    right: 20px;
+    top: 20px;
+    right: 10px;
   }
   section#iniciar .links a {
-    padding: 20px;
+    padding: 10px;
   }
 
   /*Buttom*/
   section#iniciar .container button {
     margin-top: 2rem;
-    height: 3.5rem;
-    font-size: 1.5rem;
+    height: 3rem;
+    font-size: 1.25rem;
   }
 
   section#iniciar .config {
-    left: 20px;
-    bottom: 40px;
+    left: 10px;
+    bottom: 10px;
   }
   section#iniciar .config button {
-    padding: 20px;
+    padding: 10px;
   }
 
   /* SECTION JOGO */
   section#jogo .arrow {
     padding: 5px;
-    top: 20px;
-    left: 30px;
-    font-size: clamp(3rem, 2vw, 1.75rem);
+    top: 10px;
+    left: 20px;
+    font-size: clamp(2rem, 2vw, 1.75rem);
   }
 
   section#jogo h1 {
-    font-size: clamp(3rem, 3.5vw, 2.8rem);
+    font-size: clamp(2.75rem, 3.5vw, 2.8rem);
   }
 
   section#jogo .aviso button {
