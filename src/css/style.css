@@ -28,6 +28,7 @@
 }
 
 body {
+  background-color: black;
   overflow: hidden;
 }
 
@@ -52,6 +53,7 @@ section#iniciar {
   position: absolute;
   top: 0;
   transition: transform 1s ease, opacity 1s ease;
+  overflow: hidden;
 }
 /* CSS da Section (Iniciar) HIDEN SAIR DA TELA */
 section#iniciar.hiden {
