@@ -1,37 +1,56 @@
-<h1>Jokenpô - Pedra, Papel e Tesoura</h1>
-</br>
-<h2>Sobre o Projeto</h2>
-</br>
-<p>Este projeto foi um desafio proposto pela Imersão Dev, mas tanto o design quanto a lógica foram desenvolvidos por mim.
-Este é um jogo online de Pedra, Papel e Tesoura, desenvolvido para a web. O objetivo do jogo é simples: o usuário escolhe entre Pedra, Papel ou Tesoura e compete contra uma escolha aleatória do computador.</p>
-</br>
-<h2>Tecnologias Utilizadas</h2>
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-</ul>
-</br>
-<h2>Funcionalidades</h2>
-</br>
-<ul>
-    <li>Tela inicial com botão para iniciar o jogo</li>
-    <li>Placar exibindo vitórias, empates e derrotas</li>
-    <li>Mensagem de aviso ao tentar voltar para a tela inicial durante uma sequência de vitórias</li>
-    <li>Responsividade para dispositivos móveis</li>
-</ul>
-</br>
-<h2>Como Jogar</h2>
-</br>
-<ol>
-    <li>Clique no botão "Jogar" na tela inicial.</li>
-    <li>Escolha entre Pedra, Papel ou Tesoura.</li>
-    <li>O resultado será exibido após 2 segundos, indicando se você venceu, empatou ou perdeu.</li>
-    <li>O placar será atualizado automaticamente.</li>
-</ol>
-</br>
-<h2>Demonstração</h2>
-<p>Você pode acessar o jogo diretamente pelo link: Jokenpô - Pedra, Papel e Tesoura</p>
-</br>
-<h2>Autor</h2>
-<p>Desenvolvido por Carlos.</p>
+# ✊ Jokenpô - Pedra, Papel e Tesoura
+
+🎮 Um mini game clássico com uma pegada moderna e responsiva, direto no seu navegador!
+
+---
+<br>
+
+## 🧠 Sobre o Projeto
+
+Este projeto nasceu como um desafio da **Imersão Dev**, mas todo o **design** e a **lógica do jogo** foram criados por mim com muito carinho!
+
+A proposta é simples, mas divertida: você escolhe entre **Pedra**, **Papel** ou **Tesoura** e enfrenta o computador em rodadas rápidas e animadas. Ideal para testar seus reflexos (e a sorte 👀)!
+
+---
+<br>
+
+## 🔗 Demonstração
+
+👉 Acesse o jogo agora: [Jokenpô - Pedra, Papel e Tesoura](https://jokenpo-jogo.vercel.app/)
+
+---
+<br>
+
+## 🛠️ Tecnologias Utilizadas
+
+* 🧱 **HTML**
+* 🎨 **CSS**
+* ⚙️ **JavaScript**
+
+---
+<br>
+
+## ✨ Funcionalidades
+
+* ✅ Tela inicial com botão para iniciar o jogo  
+* 📊 Placar com contagem de vitórias, empates e derrotas  
+* 🚨 Alerta ao tentar sair com uma sequência de vitórias ativa  
+* 📱 Totalmente responsivo para dispositivos móveis  
+
+---
+<br>
+
+## 🎮 Como Jogar
+
+1. Clique em **"Jogar"** na tela inicial  
+2. Escolha entre **Pedra**, **Papel** ou **Tesoura**  
+3. Aguarde 2 segundos e veja o resultado: vitória, empate ou derrota  
+4. O placar será atualizado automaticamente  
+
+---
+<br>
+
+## 👨‍💻 Autor
+
+Desenvolvido com 💙 por **Carlos Eduardo**  
+Se curtir, deixa uma ⭐ no repositório!
